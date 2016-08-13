@@ -1,0 +1,99 @@
+/*Currently in Main.css*/
+
+
+html, body, #map-canvas {
+    height: 100%;
+    width:100%;
+    margin: 0px;
+    padding: 0px
+}
+
+.welcome {
+	text-align: center;
+	background-image: url("../styles/fun_comic.jpg");
+	background-size: 33%;
+	width: 100%;
+	height: 128px;
+}
+
+/*.welcome:hover {
+	-webkit-filter: blur(2px); 
+	-moz-filter: blur(2px); 
+	-o-filter: blur(2px); 
+	-ms-filter: blur(2px); 
+	filter: blur(2px);
+}*/
+
+.navContent {
+	height: 100%;
+	width: 268px;
+	background: #fff;
+	opacity: 0.8;
+	margin-left: 39%;
+}
+.logo{
+	height: 53%;
+	padding-top: 5px;
+}
+.about_link {
+	font-family: 'Roboto Condensed', sans-serif;
+	position: relative;
+	top: 11px;
+	text-decoration: none;
+}
+.about_link:hover{
+	color: #cc0000;
+}
+.slogan {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #5a5a5a;
+	position: relative;
+	top: 5px;
+}
+
+
+.body_wrapper {
+	width: 100%;
+
+}
+#map-canvas {
+	height: 600px;
+	width: 100%;
+}
+
+.footer {
+	padding: 1%;
+	text-align: center;
+	height: 60px;
+	width: 100%;
+	font-family: 'Roboto Condensed', sans-serif;
+	background: -webkit-linear-gradient(left, #808080, #a6a6a6);
+
+}
+.hello{
+	margin: 20px;
+}
+.about_bubble{
+
+}
+.sup {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	color: #0016d6;
+	margin: -249px;
+}
+
+.my_pic {
+	height: 250px;
+	float: right;
+	border-radius: 108px;
+	margin-top: 125px;
+}
+.about_wrapper {
+	height: 30%;
+	width: 50%;
+	margin: 10px;
+	padding: 0;
+	
+}
+
